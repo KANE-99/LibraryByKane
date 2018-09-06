@@ -8,7 +8,7 @@
       5) Android Plugin repository: maven {             url 'https://maven.google.com/'             name 'Google'         }, jcenter
       6) Default Library repository:maven {             url 'https://maven.google.com/'             name 'Google'         }, jcenter
 
-Configure the gradle files(In gradle scripts Section of Project) as such:
+Configure the gradle files(In gradle scripts Section of Project) as such: (open this link to view the code)
  <script src="https://gist.github.com/KANE-99/c9dde9f97f847a848458212f4fdfc8ea.js"></script>
  <script src="https://gist.github.com/KANE-99/210fec5d137a295278a0b8ad131bf778.js"></script>
  <script src="https://gist.github.com/KANE-99/1e04e9f3083012e46df21e1b903e9d0d.js"></script>
