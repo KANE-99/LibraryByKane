@@ -12,3 +12,5 @@ Configure the gradle files(In gradle scripts Section of Project) as such: (open 
  https://gist.github.com/KANE-99/c9dde9f97f847a848458212f4fdfc8ea
  https://gist.github.com/KANE-99/210fec5d137a295278a0b8ad131bf778
  https://gist.github.com/KANE-99/1e04e9f3083012e46df21e1b903e9d0dipt>
+
+Important: Change your database settings in the as per your JDBC. For Android app to work you also have to make changes to code where IP address (Note:Port doesn't have to be changed. No changes are required on javaFX for connectivity.) is written(In MessageSender class).For Connection, make sure you have both the PC and Android phone on which the app is running to be on same wifi network.Then check your IP address by opening cmd and type "ipconfig" and check under LAN WIFI (IPv4): as in my case 192.168.43.129.
